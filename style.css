@@ -188,7 +188,23 @@ input[type="text"], input[type="date"] {
         color: whitesmoke;
         position: absolute;
         transform: scale(0.15) rotate(0deg);
-        margin: -540% -700px;
+        margin: -2650px -750px;
+    }
+    .container {
+        background-color:rgba(0, 58, 116, 0.432);
+        margin: 60px;
+        padding: 30px;
+    }
+    input[type="text"], input[type="date"] {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 400px) {
+    .logo{
+        color: whitesmoke;
+        position: absolute;
+        transform: scale(0.15) rotate(0deg);
+        margin: -2650px -750px;
     }
     .container {
         background-color:rgba(0, 58, 116, 0.432);
