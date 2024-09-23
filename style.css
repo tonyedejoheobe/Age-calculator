@@ -19,10 +19,10 @@ body{
 .logo{
     z-index: -1;
     position: absolute;
-    margin-top: -290px;
-    margin-left: -70px;
+    margin-top: -320px;
+    margin-left: -120px;
     color:rgba(245, 245, 245, 0.568);
-    font-size: 1700%;
+    font-size: 1740%;
     top: 200px;
     left: 110px;
     transition: transform 0.5s ease-in-out;
@@ -42,7 +42,7 @@ input[type="text"], input[type="date"] {
 }
 
 #fname:hover{
-    animation: slide 1s forwards 1.5s;
+    animation: slide 1s forwards 1.8s;
     border: 2px solid turquoise;
     
 }
@@ -56,13 +56,13 @@ input[type="text"], input[type="date"] {
 }
 
 #sex:hover{
-    animation: slid 1s forwards 1.5s;
+    animation: slid 1s forwards 1.8s;
     border: 2px solid turquoise;
     
 }
 @keyframes slid {
     50%{
-        transform: scale(1.4);
+        transform: scale(1.3);
     }
     100%{
     transform: scale(1);
@@ -70,13 +70,13 @@ input[type="text"], input[type="date"] {
 }
 
 #currDate:hover{
-    animation: s 1s forwards 1.5s;
+    animation: s 1s forwards 1.8s;
     border: 2px solid turquoise;
     
 }
 @keyframes s {
     50%{
-        transform: scale(1.4);
+        transform: scale(1.3);
     }
     100%{
     transform: scale(1);
@@ -84,13 +84,13 @@ input[type="text"], input[type="date"] {
 }
 
 #byr:hover{
-    animation: sli 1s forwards 1.5s;
+    animation: sli 1s forwards 1.8s;
     border: 2px solid turquoise;
     
 }
 @keyframes sli {
     50%{
-        transform: scale(1.4);
+        transform: scale(1.3);
     }
     100%{
     transform: scale(1);
@@ -142,15 +142,15 @@ input[type="text"], input[type="date"] {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     body{
         overflow-x: hidden;
         overflow-y: auto;
     }
     .logo{
-        transform:  scale(0.5);
+        transform:  scale(0.3);
         bottom: 30%;
-        left: 10%;
+        left: 5%;
     }
     .ann{
         width: 190%;
@@ -163,15 +163,15 @@ input[type="text"], input[type="date"] {
 }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .ann{
         width: 200%;
         margin: -30px -75%;
     }
     .logo{
         transform: scale(0.3) rotate(-90deg);
-        bottom: -5%;
-        left: -10%;
+        bottom: -20%;
+        left: -5%;
         transition: transform 0.5s ease-in-out;
     }
     .container {
@@ -186,15 +186,14 @@ input[type="text"], input[type="date"] {
 @media (max-width: 600px) {
     .logo{
         color: whitesmoke;
-        position: absolute;
         transform: scale(0.15) rotate(0deg);
-        margin: -2500px -750px;
+        margin: -2900px -750px;
     }
     .ann{
         scale: 0.7;
     }
     .container {
-        background-color:rgba(0, 58, 116, 0.432);
+        background-color:rgba(0, 58, 116, 0.349);
         margin: 60px;
         padding: 30px;
     }
@@ -207,10 +206,10 @@ input[type="text"], input[type="date"] {
         color: whitesmoke;
         position: absolute;
         transform: scale(0.15) rotate(0deg);
-        margin: -2550px -750px;
+        margin: -2950px -800px;
     }
     .container {
-        background-color:rgba(0, 58, 116, 0.432);
+        background-color:rgba(0, 58, 116, 0.397);
         margin: 60px;
         padding: 30px;
     }
@@ -219,7 +218,66 @@ input[type="text"], input[type="date"] {
     }
 }
 
-footer{
-    margin-top: 24%;
+.tag{
+    color: rgba(245, 245, 245, 0);
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}
+.a{
+    animation: tags 0.5s forwards 0.5s;
+}
+.b{
+    animation: tags 0.5s forwards 0.7s;
+}
+.c{
+    animation: tags 0.5s forwards 0.9s;
+}
+.d{
+    animation: tags 0.5s forwards 1.1s;
+}
+.e{
+    animation: tags 0.5s forwards 1.3s;
+}
+.f{
+    animation: tags 0.5s forwards 1.5s;
+}
+.g{
+    animation: tags 0.5s forwards 1.7s;
+}
+.h{
+    animation: tags 0.5s forwards 1.9s;
+}
+.i{
+    animation: tags 0.5s forwards 2.1s;
+}
+.j{
+    animation: tags 0.5s forwards 2.3s;
+}
+.k{
+    animation: tags 0.5s forwards 2.5s;
+}
+.l{
+    animation: tags 0.5s forwards 2.7s;
+}
+.m{
+    animation: tags 0.5s forwards 2.9s;
+}
+.n{
+    animation: tags 0.5s forwards 3.1s;
+}
+.o{
+    animation: tags 0.5s forwards 3.3s;
 }
 
+
+@keyframes tags {
+    50%{
+        transform: scale(1.7);
+        color: lightskyblue;
+    }
+    100%{
+        transform: scale(1);
+        color: whitesmoke;
+    }
+}
